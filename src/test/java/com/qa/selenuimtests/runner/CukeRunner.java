@@ -11,6 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features = "src/test/resources",
 glue = "com.qa.selenuimdemositests.stepdefs",
 tags ="not @smoke")
-public class CukeRunner {
+public class CukeRunner
+{
 
 }
